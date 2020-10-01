@@ -8,3 +8,6 @@ This is a small addendum to `vimeo/psalm-github-actions` to include these php ex
 
 These are needed to run `composer install` on the main marketphase repo
 
+# Take care
+
+We haven't yet set up this repository to automatically update the image on `hub.docker.com`, so changes should be `docker push`ed by hand.
