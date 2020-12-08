@@ -3,6 +3,7 @@
 This is a small addendum to `vimeo/psalm-github-actions` to include these php extensions:
 
 - `gd`
+- `intl`
 - `sockets`
 - `zip`
 
