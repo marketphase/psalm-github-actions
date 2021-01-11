@@ -1,4 +1,4 @@
-FROM vimeo/psalm-github-actions:4.3.1
+FROM vimeo/psalm-github-actions:4.3.2
 
 RUN ["/sbin/apk", "add", "libpng-dev"]
 RUN ["/usr/local/bin/docker-php-ext-install", "gd"]
