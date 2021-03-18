@@ -1,4 +1,4 @@
-FROM vimeo/psalm-github-actions:4.6.3
+FROM vimeo/psalm-github-actions:4.6.4
 
 RUN ["/sbin/apk", "add", "libpng-dev"]
 RUN ["/sbin/apk", "add", "libzip-dev"]
